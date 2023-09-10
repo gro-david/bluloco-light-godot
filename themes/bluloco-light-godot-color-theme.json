@@ -361,7 +361,7 @@
 	"tokenColors": [
 		{
 			"name": "Keyword",
-			"scope": ["keyword.language.gdscript", "keyword.control.gdscript"],
+			"scope": ["keyword.language.gdscript", "keyword.control.gdscript", "keyword.operator.wordlike.gdscript"],
 			"settings": {
 				"foreground": "#43AFE0",
 				"fontStyle": "italic"
@@ -377,12 +377,19 @@
 		},
 		{
 			"name": "Class",
-			"scope": ["entity.name.type.class.gdscript","support.class.library.gdscript"],
+			"scope": "entity.name.type.class.gdscript",
 			"settings": {
 				"foreground": "#D52753",
 				"fontStyle": "bold"
 			}
 		},
+    {
+      "name": "Support Class",
+      "scope": "support.class.library.gdscript",
+      "settings": {
+        "foreground": "#D52753"
+      }
+    },
 		{
 			"name": "Var",
 			"scope": "storage.type.var.gdscript",
@@ -392,7 +399,7 @@
 		},
 		{
 			"name": "Operator",
-			"scope": "keyword.operator.gdscript",
+			"scope": ["keyword.operator.gdscript", "keyword.operator.arithmetic.gdscript"],
 			"settings": {
 				"foreground": "#7A82DA",
 			}
@@ -518,6 +525,21 @@
       "settings": {
         "foreground": "#43AFE0",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Return",
+      "scope": "entity.name.type.class.gdscript",
+      "settings": {
+        "foreground": "#43AFE0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Properties",
+      "scope": "variable.other.property.gdscript",
+      "settings": {
+        "foreground": "#A05A48"
       }
     }
 	]

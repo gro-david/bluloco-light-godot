@@ -1,1 +1,0 @@
-{"version":3,"file":"gdscript.capabilities.js","sourceRoot":"","sources":["../../../../godot/out/lsp/gdscript.capabilities.js"],"names":[],"mappings":"AAAA,YAAY,CAAC;AACb,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,YAAY,EAAE,EAAE,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC;AAC9D,OAAO,CAAC,iBAAiB,GAAG,KAAK,CAAC,CAAC;AACnC,MAAM,iBAAiB;CACtB;AACD,OAAO,CAAC,iBAAiB,GAAG,iBAAiB,CAAC"}
