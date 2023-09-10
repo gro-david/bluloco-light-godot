@@ -1,0 +1,1 @@
+{"version":3,"file":"debug_adapter.js","sourceRoot":"","sources":["../../../../godot/out/debugger/debug_adapter.js"],"names":[],"mappings":"AAAA,YAAY,CAAC;AACb,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,YAAY,EAAE,EAAE,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC;AAC9D,MAAM,eAAe,GAAG,OAAO,CAAC,iBAAiB,CAAC,CAAC;AACnD,eAAe,CAAC,iBAAiB,CAAC,GAAG,CAAC,eAAe,CAAC,iBAAiB,CAAC,CAAC"}

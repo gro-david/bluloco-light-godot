@@ -3,6 +3,12 @@
 A complete set of tools to code games with
 [Godot Engine](http://www.godotengine.org/) in Visual Studio Code.
 
+> **Warning**
+> 
+> This plugin requires manual configuration to work with Godot 4!
+> See the [`gdscript_lsp_server_port` setting](#gdscript_lsp_server_port)
+> item under the Configuration section below.
+
 **IMPORTANT NOTE:** Versions 1.0.0 and later of this extension only support
 Godot 3.2 or later.
 
@@ -23,7 +29,7 @@ experience as comfortable as possible:
 - Run a Godot project from VS Code
 - Debug your GDScript-based Godot project from VS Code with breakpoints, step-in/out/over, variable watch, call stack, and active scene tree
 
-![Showing the documentation on hover feature](https://github.com/godotengine/godot-vscode-plugin/raw/HEAD/img/godot-tools.png)
+![Showing the documentation on hover feature](img/godot-tools.png)
 
 ## Download
 
@@ -47,7 +53,7 @@ The extension adds a few entries to the VS Code Command Palette under "Godot Too
 - Run the workspace as a Godot project
 - List Godot's native classes
 
-## Settings
+## Configuration
 
 ### Godot
 
@@ -63,11 +69,22 @@ for Godot by following these steps:
 
 ### VS Code
 
+#### Settings
+
 You can use the following settings to configure Godot Tools:
 
-- `editor_path` - The absolute path to the Godot editor executable. _Under Mac OS, this is the executable inside of Godot.app._
-- `gdscript_lsp_server_port` - The WebSocket server port of the GDScript language server.
-- `check_status` - Check the GDScript language server connection status.
+##### `editor_path`
+
+The absolute path to the Godot editor executable. _Under Mac OS, this is the executable inside of Godot.app._
+
+##### `gdscript_lsp_server_port`
+
+The WebSocket server port of the GDScript language server.
+
+For Godot 3, the default value of `6008` should work out of the box.
+
+**For Godot 4, this value must be changed to `6005` for this extension to connect to the language server.**
+See [this tracking issue](https://github.com/godotengine/godot-vscode-plugin/issues/473) for more information.
 
 #### GDScript Debugger
 
@@ -102,7 +119,7 @@ _Optional_
 - Nodes can be brought to the fore in the Inspector by clicking the Eye icon next to nodes in the active scene tree, or Objects in the inspector.
 - You can edit integers, floats, strings, and booleans within the inspector by clicking the pencil icon next to each.
 
-![Showing the debugger in action](https://github.com/godotengine/godot-vscode-plugin/raw/HEAD/img/godot-debug.png)
+![Showing the debugger in action](img/godot-debug.png)
 
 ## Issues and contributions
 
@@ -133,6 +150,9 @@ When developing for the extension, you can open this project in Visual Studio Co
 ### Why does it fail to connect to the language server?
 
 - Godot 3.2 or later is required.
+- For Godot 4, the [`gdscript_lsp_server_port` setting](#gdscript_lsp_server_port)
+  must be changed to `6005` to match the Godot editor's new default
+  language server port number.
 - Make sure to open the project in the Godot editor first. If you opened
   the editor after opening VS Code, you can click the **Retry** button
   in the bottom-right corner in VS Code.

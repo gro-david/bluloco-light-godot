@@ -37,6 +37,14 @@
       "\t${1:pass}"
     ]
 	},
+	
+	"_physics_process method of Node": {
+		"prefix": "physics",
+		"body": [
+      "func _physics_process(delta):",
+      "\t${1:pass}"
+    ]
+	},
 
 	"_input method of Node": {
 		"prefix": "input",
@@ -52,6 +60,14 @@
       "func _input_event(event):",
       "\t${1:pass}"
     ]
+  },
+
+  "_unhandled_input method of Node": {
+	  "prefix": "uinput",
+	  "body": [
+	"func _unhandled_input(event):",
+	"\t${1:pass}"
+  ]
   },
 
     "_draw method of Node": {
@@ -129,6 +145,13 @@
 		"body": [
       "func ${1:method}(${2:args}):",
       "\t${3:pass}"
+    ]
+  },
+
+  "match": {
+    "prefix": "match",
+    "body": [
+      "match ${1:expression}:\n\t${2:pattern}:\n\t\t${3}\n\t_:\n\t\t${0:default}"
     ]
   },
 
