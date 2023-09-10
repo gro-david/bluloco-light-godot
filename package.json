@@ -50,7 +50,7 @@
 			{
 				"label": "Bluloco Light Godot",
 				"uiTheme": "vs",
-				"path": "./themes/Bluloco Light Godot-color-theme.json"
+				"path": "./themes/bluloco-light-godot-color-theme.json"
 			}
 		],
 		"commands": [
