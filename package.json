@@ -9,7 +9,7 @@
 	"publisher": "gro-david",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/gro-david/bluloco-light-godot" 
+		"url": "https://github.com/gro-david/bluloco-light-godot"
 	},
 	"engines": {
 		"vscode": "^1.33.0"
@@ -395,7 +395,7 @@
 		"@types/ws": "^8.2.2",
 		"tslint": "^5.20.1",
 		"typescript": "^3.9.10",
-		"vsce": "^2.6.4"
+		"vsce": "^2.15.0"
 	},
 	"dependencies": {
 		"await-notify": "^1.0.1",
