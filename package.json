@@ -32,9 +32,6 @@
 	],
 	"activationEvents": [
 		"workspaceContains:project.godot",
-		"onLanguage:gdscript",
-		"onLanguage:gdshader",
-		"onLanguage:gdresource",
 		"onDebugResolve:godot"
 	],
 	"main": "./out/extension.js",
