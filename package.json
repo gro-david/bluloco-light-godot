@@ -2,7 +2,7 @@
 	"name": "bluloco-light-godot-italic",
 	"displayName": "Bluloco Light Godot",
 	"icon": "icon.png",
-	"version": "1.3.2",
+	"version": "1.0.1",
 	"description": "A beautiful Godot light theme based on Bluloco Light Italic and tools for game development with Godot Engine and GDScript. This has a modified version of the Godot Tools package included, so you dont have to install anything else.",
 	"license": "MIT",
 	"author": "gro-david",
