@@ -441,6 +441,13 @@
 				"foreground": "#23974A",
 			}
 		},
+    {
+      "name": "Function Arguments",
+      "scope": "meta.function-call.arguments.gdscript",
+      "settings": {
+        "foreground": "#383a42"
+      }
+    },
 		{
 			"name": "Nodepaths",
 			"scope": "meta.literal.nodepath.gdscript",
