@@ -2,8 +2,8 @@
     "fileTypes": [
         "gd"
     ],
-    "scopeName": "source.gdscript",
-    "name": "GDScript",
+    "scopeName": "source.advanced-gdscript",
+    "name": "Advanced GDScript",
     "patterns": [
         {
             "include": "#nodepath_object"
