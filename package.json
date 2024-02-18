@@ -1,14 +1,30 @@
 {
-	"name": "advanced-godot-syntax",
-	"displayName": "Advanced Godot Syntax",
+	"name": "bluloco-godot",
+	"displayName": "Bluloco Godot",
 	"icon": "icon.png",
-	"version": "2.0.0",
-	"description": "Custom language syntax highlighting for GDScript",
+	"version": "1.1.1",
+	"description": "A beautiful Godot light theme based on Bluloco Light Italic and tools for game development with Godot Engine and GDScript. This has a modified version of the Godot Tools package included, so you dont have to install anything else.",
 	"license": "MIT",
-	"author": "The Godot Engine community, gro-david",
+	"author": "gro-david",
 	"publisher": "gro-david",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gro-david/bluloco-light-godot"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
 	"categories": [
 		"Programming Languages"
+	],
+	"keywords": [
+		"theme",
+		"light",
+		"dark",
+		"bluloco",
+		"godot",
+		"godot tools",
+		"gdscript"
 	],
 	"contributes": {
 		"themes": [
