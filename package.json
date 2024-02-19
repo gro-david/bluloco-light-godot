@@ -2,7 +2,7 @@
 	"name": "bluloco-godot",
 	"displayName": "Bluloco Godot",
 	"icon": "icon.png",
-	"version": "1.1.3",
+	"version": "1.1.4",
 	"description": "A modified version of the GDScript syntax highlighting from godot tools and my theme of choice, Bluloco, also modified to suit my likings",
 	"license": "MIT",
 	"author": "gro-david",
@@ -41,10 +41,10 @@
 		],
 		"languages": [
 			{
-				"id": "advanced-gdscript",
+				"id": "gdscript",
 				"aliases": [
 					"Advanced GDScript",
-					"advanced-gdscript"
+					"gdscript"
 				],
 				"extensions": [
 					".gd"
@@ -52,10 +52,10 @@
 				"configuration": "./configurations/gdscript.language-configuration.json"
 			},
 			{
-				"id": "advanced-gdscene",
+				"id": "gdscene",
 				"aliases": [
 					"Advanced GDScene",
-					"advanced-gdscene"
+					"gdscene"
 				],
 				"extensions": [
 					"tscn"
@@ -63,10 +63,10 @@
 				"configuration": "./configurations/gdresource.language-configuration.json"
 			},
 			{
-				"id": "advanced-gdresource",
+				"id": "gdresource",
 				"aliases": [
 					"Advanced GDResource",
-					"advanced-gdresource"
+					"gdresource"
 				],
 				"extensions": [
 					"godot",
@@ -78,9 +78,9 @@
 				"configuration": "./configurations/gdresource.language-configuration.json"
 			},
 			{
-				"id": "advanced-gdshader",
+				"id": "gdshader",
 				"aliases": [
-					"advanced-gdshader"
+					"gdshader"
 				],
 				"extensions": [
 					".gdshader",
@@ -91,23 +91,23 @@
 		],
 		"grammars": [
 			{
-				"language": "advanced-gdscript",
-				"scopeName": "source.advanced-gdscript",
+				"language": "gdscript",
+				"scopeName": "source.gdscript",
 				"path": "./syntaxes/GDScript.tmLanguage.json"
 			},
 			{
-				"language": "advanced-gdresource",
-				"scopeName": "source.advanced-gdresource",
+				"language": "gdresource",
+				"scopeName": "source.gdresource",
 				"path": "./syntaxes/GDResource.tmLanguage.json"
 			},
 			{
-				"language": "advanced-gdscene",
-				"scopeName": "source.advanced-gdresource",
+				"language": "gdscene",
+				"scopeName": "source.gdresource",
 				"path": "./syntaxes/GDResource.tmLanguage.json"
 			},
 			{
-				"language": "advanced-gdshader",
-				"scopeName": "source.advanced-gdshader",
+				"language": "gdshader",
+				"scopeName": "source.gdshader",
 				"path": "./syntaxes/GDShader.tmLanguage.json"
 			}
 		],

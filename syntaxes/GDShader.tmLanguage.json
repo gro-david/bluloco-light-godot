@@ -1,6 +1,7 @@
 {
     "version": "v0.1.0",
-    "scopeName": "source.advanced-gdshader",
+    "scopeName": "source.gdshader",
+    "name": "GDShader",
     "uuid": "3a95d25d-688b-481f-a581-eee47f00e5ca",
     "patterns": [
         {

@@ -2,7 +2,7 @@
     "fileTypes": [
         "gd"
     ],
-    "scopeName": "source.advanced-gdscript",
+    "scopeName": "source.gdscript",
     "name": "Advanced GDScript",
     "patterns": [
         {
